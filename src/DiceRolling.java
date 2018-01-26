@@ -21,14 +21,14 @@ public class DiceRolling {
 	
 	public static int die1(int numOne) { //one method to get the roll of the first die
 		Random random = new Random(); 
-        numOne = random.nextInt(numOne) + 1;
-        return numOne;	
+        	numOne = random.nextInt(numOne) + 1;
+        	return numOne;	
 	}
 	
 	public static int die2(int numOne) {//another method to get the roll of the second die
 		Random random = new Random(); 
-        numOne = random.nextInt(numOne) + 1;
-        return numOne;
+        	numOne = random.nextInt(numOne) + 1;
+        	return numOne;
 	}
 		
 	
